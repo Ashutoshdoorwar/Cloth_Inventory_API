@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\CT.Email\\CT.Email.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\Ct.common\\Ct.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\Ct.common\\Ct.Common.csproj",
+        "projectName": "Ct.Common",
+        "projectPath": "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\Ct.common\\Ct.Common.csproj",
+        "packagesPath": "C:\\Users\\ASTDEV_006\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\Ct.common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASTDEV_006\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\CT.Email\\CT.Email.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\CT.Email\\CT.Email.csproj",
+        "projectName": "CT.Email",
+        "projectPath": "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\CT.Email\\CT.Email.csproj",
+        "packagesPath": "C:\\Users\\ASTDEV_006\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\CT.Email\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASTDEV_006\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\Ct.common\\Ct.Common.csproj": {
+                "projectPath": "C:\\Users\\ASTDEV_006\\Desktop\\Vihar\\Cloth_API\\Ct.common\\Ct.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

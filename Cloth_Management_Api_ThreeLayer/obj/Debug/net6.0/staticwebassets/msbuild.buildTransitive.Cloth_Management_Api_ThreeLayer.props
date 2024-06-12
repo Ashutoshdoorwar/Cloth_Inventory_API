@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Cloth_Management_Api_ThreeLayer.props" />
+</Project>
